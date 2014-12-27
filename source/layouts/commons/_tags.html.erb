@@ -1,0 +1,6 @@
+<ul class="tags list-inline">
+  <li>Теги:</li>
+  <% article.tags.each do |tag| %>
+    <li><%= link_to tag, tag_path(tag) %></li>
+  <% end %>
+</ul>

@@ -1,0 +1,25 @@
+---
+layout: false
+directory_index: false
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://stroymeh.tom.ru/</loc>
+    <lastmod><%= Time.now %></lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <% sitemap.resources.find_all{ |p| p.source_file.match(/\.html/)}.each do |p| %>
+    <% location = p.destination_path.gsub('/index.html','') %>
+    <% unless location == 'index.html' %>
+  <url>
+    <loc>http://stroymeh.tom.ru/<%= location.to_s %></loc>
+    <lastmod><%= Time.now %></lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+    <% end %>
+  <% end %>
+</urlset>

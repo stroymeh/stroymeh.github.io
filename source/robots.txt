@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Host: stroymeh.tom.ru
+Sitemap: http://stroymeh.tom.ru/sitemap.xml

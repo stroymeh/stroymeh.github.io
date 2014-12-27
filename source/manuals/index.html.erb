@@ -1,0 +1,22 @@
+---
+title: Методические пособия
+blog: :manuals
+---
+
+<% blog(:manuals).articles[0...10].each do |article| %>
+  <h3><%= link_to article.title, article.url %></h3>
+
+  <%= partial 'layouts/commons/meta', :locals => { :article => article } %>
+
+  <p>
+    <%= article.body %>
+  </p>
+
+  <div class="meta">
+    <%= partial 'layouts/commons/tags', :locals => { :article => article } %>
+  </div>
+
+  <div class="btn-group">
+    <%= link_to 'Подробнее', article.url, :class => 'btn btn-default btn-sm' %>
+  </div>
+<% end %>
