@@ -3,9 +3,9 @@
 
   <%= partial 'layouts/commons/meta', :locals => { :article => current_page } %>
 
-  <p>
+  <div class="content">
     <%= yield %>
-  </p>
+  </div>
 
   <div class="meta pull-left">
     <%= partial 'layouts/commons/tags', :locals => { :article => current_page } %>
@@ -14,4 +14,24 @@
   <div class="pull-right hidden-xs hidden-sm">
     <%= partial 'layouts/commons/social_likes' %>
   </div>
+
+  <% content_for :sidebar do %>
+    <div class="files">
+      <ul class="media-list">
+        <% current_page.data.files.each do |file| %>
+          <li class="media">
+            <div class="file-type pull-left">
+              <%= content_type(file.link) %>
+            </div>
+            <div class="media-body">
+              <%= link_to file.title, file.link %>
+            </div>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+
 <% end %>
+

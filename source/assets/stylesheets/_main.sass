@@ -27,17 +27,36 @@
   border-right: 1px solid #e3e3e3
   padding: 0 20px 20px 20px
 
+  .article
+    border-bottom: 1px solid #e3e3e3
+    padding: 0 0 20px 0
+
   .details
     +clearfix
     color: #999
     margin: 5px 0
 
-    .date
-
     .type
       border: 1px solid #ccc
       font-size: 12px
       padding: 3px 5px
+
+  .content
+    p
+      line-height: 26px
+
+    ul
+      margin: 0 0 10px 20px
+
+    img
+      +inline-block
+      +transition(all 0.2s ease-in-out)
+      background-color: #fff
+      border: 1px solid #ddd
+      height: auto
+      line-height: 1.4
+      max-width: 100%
+      padding: 4px
 
   .meta
     +clearfix
@@ -47,6 +66,14 @@
   padding: 20px
 
 .files
+  .media-list
+
+  .media
+    +clearfix
+
+    .pull-left
+      margin: 0 10px 0 0
+
   .file-type
     background: #ccc
     color: #777
