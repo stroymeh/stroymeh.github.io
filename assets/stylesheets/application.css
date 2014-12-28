@@ -7384,3 +7384,7 @@ h6 {
 /* line 101, /Users/tab/projects/stroymeh.github.io/source/assets/stylesheets/_main.sass */
 .pagination {
   margin: 20px 0 0 0; }
+
+/* line 105, /Users/tab/projects/stroymeh.github.io/source/assets/stylesheets/_main.sass */
+.footer a {
+  color: #999; }
