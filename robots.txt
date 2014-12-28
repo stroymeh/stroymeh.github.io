@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /softwares/tags
+Disallow: /softwares/tags/tag
+Disallow: /manuals/tags
+Disallow: /manuals/tags/tag
+Host: stroymeh.tom.ru
+Sitemap: http://stroymeh.tom.ru/sitemap.xml
