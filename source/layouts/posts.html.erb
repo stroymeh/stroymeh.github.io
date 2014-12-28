@@ -8,7 +8,7 @@
   </div>
 
   <div class="meta pull-left">
-    <%= partial 'layouts/commons/tags', :locals => { :article => current_page } %>
+    <%= partial 'layouts/commons/tags', :locals => { :article => current_page, :section => :manuals || :softwares } %>
   </div>
 
   <div class="pull-right hidden-xs hidden-sm">

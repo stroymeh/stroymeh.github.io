@@ -3,5 +3,5 @@ title: Статьи сгруппированные по тегам
 ---
 
 <% page_articles.each do |article| %>
-  <%#= partial 'layouts/commons/article', :locals => { :article => article } %>
+  <%= partial 'layouts/commons/article', :locals => { :article => article, :section => :manuals } %>
 <% end %>

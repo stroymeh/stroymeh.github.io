@@ -37,12 +37,20 @@
           <%= yield %>
         </div>
 
-        <div class="col-lg-3 col-md-3 hidden-sm hidden-xs sidebar">
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 sidebar">
+          <% if content_for?(:info) %>
+            <div class="info">
+             <%= yield_content :info %>
+            </div>
+          <% end %>
+
           <% if content_for?(:sidebar) %>
              <%= yield_content :sidebar %>
           <% end %>
 
-          <%= partial 'layouts/commons/blog_tags' %>
+          <div class="blog-tags">
+            <%= partial 'layouts/commons/blog_tags' %>
+          </div>
         </div>
       </div>
     </div>

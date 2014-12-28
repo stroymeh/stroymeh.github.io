@@ -1,7 +1,10 @@
 <div class="blog-tags">
   <ul>
-    <%# blog.tags.each do |tag, articles| %>
-      <li><%#= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
-    <%# end %>
+    <li>Теги:</li>
+    <% [:manuals, :softwares].each do |section| %>
+      <% blog(section).tags.each do |tag, articles| %>
+        <li><%= link_to tag, tag_path(tag, section) %></li>
+      <% end %>
+    <% end %>
   </ul>
 </div>
