@@ -1,25 +1,22 @@
 require 'extensions/views'
-
-#activate :blog do |blog|
-  #blog.prefix = "manuals"
-#end
+require 'rack/rewrite'
 
 activate :blog do |blog|
   blog.name = :manuals
-  blog.prefix = "manuals"
+  blog.prefix = "metodicheskoe-posobie"
   blog.permalink = "{title}"
   blog.taglink = "tags/{tag}.html"
-  blog.tag_template = "manuals/tags/tag.html"
+  blog.tag_template = "metodicheskoe-posobie/tags/tag.html"
   blog.layout = "posts"
   blog.summary_length = 200
 end
 
 activate :blog do |blog|
   blog.name = :softwares
-  blog.prefix = "softwares"
+  blog.prefix = "programmy"
   blog.permalink = "{title}"
   blog.taglink = "tags/{tag}.html"
-  blog.tag_template = "manuals/tags/tag.html"
+  blog.tag_template = "programmy/tags/tag.html"
   blog.layout = "posts"
   blog.summary_length = 200
 end
@@ -35,6 +32,13 @@ set :fonts_dir, 'assets/fonts'
 
 configure :development do
  activate :livereload
+end
+
+use Rack::Rewrite do
+  r301 %r{/softwares/}, '/programmy$1'
+  r301 %r{/softwares(.*)\.html}, '/programmy'
+  r301 %r{/manuals/}, '/metodicheskoe-posobie'
+  r301 %r{/manuals(.*)\.html}, '/metodicheskoe-posobie$1'
 end
 
 configure :build do

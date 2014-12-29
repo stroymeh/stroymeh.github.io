@@ -11,7 +11,7 @@ directory_index: false
     <changefreq>always</changefreq>
     <priority>1.0</priority>
   </url>
-  <% sitemap.resources.find_all{ |p| p.source_file.match(/\.html/)}.each do |p| %>
+  <% sitemap.resources.find_all{ |p| p.source_file.match(/\.html/) }.each do |p| %>
     <% location = p.destination_path.gsub('/index.html','') %>
     <% unless location == 'index.html' %>
   <url>
