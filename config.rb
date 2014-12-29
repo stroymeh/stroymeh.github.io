@@ -1,5 +1,4 @@
 require 'extensions/views'
-require 'rack/rewrite'
 
 activate :blog do |blog|
   blog.name = :manuals
@@ -24,21 +23,22 @@ end
 activate :views
 activate :directory_indexes
 
+set :trailing_slash, false
 set :relative_links, true
 set :css_dir, 'assets/stylesheets'
 set :js_dir, 'assets/javascripts'
 set :images_dir, 'assets/images'
 set :fonts_dir, 'assets/fonts'
 
-configure :development do
- activate :livereload
+require 'rack/rewrite'
+use Rack::Rewrite do
+  r301 %r{^/softwares(?!\.xml)(.*)$}, '/programmy$1'
+  r301 %r{^/manuals(?!\.xml)(.*)$}, '/metodicheskoe-posobie$1'
+  r301 %r{^/(.*)/$}, '/$1'
 end
 
-use Rack::Rewrite do
-  r301 %r{/softwares/}, '/programmy$1'
-  r301 %r{/softwares(.*)\.html}, '/programmy'
-  r301 %r{/manuals/}, '/metodicheskoe-posobie'
-  r301 %r{/manuals(.*)\.html}, '/metodicheskoe-posobie$1'
+configure :development do
+ activate :livereload
 end
 
 configure :build do
