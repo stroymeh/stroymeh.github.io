@@ -2,152 +2,20 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://stroymeh.tom.ru/</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
-    <changefreq>always</changefreq>
+    <lastmod>2014-12-29</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://stroymeh.tom.ru/404.html</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
+    <loc>http://stroymeh.tom.ru/metodicheskie-posobiya/</loc>
+    <lastmod>2014-12-29</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://stroymeh.tom.ru/d2799e9d235a.html</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
+    <loc>http://stroymeh.tom.ru/programmy-dlya-rascheta/</loc>
+    <lastmod>2014-12-29</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://stroymeh.tom.ru/metodicheskie-posobiya</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://stroymeh.tom.ru/programmy-dlya-rascheta</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://stroymeh.tom.ru/metodicheskie-posobiya/tags/численные-методы.html</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://stroymeh.tom.ru/metodicheskie-posobiya/tags/курс-лекций.html</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://stroymeh.tom.ru/metodicheskie-posobiya/tags/материалы.html</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://stroymeh.tom.ru/metodicheskie-posobiya/tags/практические-занятия.html</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://stroymeh.tom.ru/metodicheskie-posobiya/tags/сопротивление-материалов.html</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://stroymeh.tom.ru/metodicheskie-posobiya/tags/учебное-пособие.html</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://stroymeh.tom.ru/metodicheskie-posobiya/tags/расчет-балки.html</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://stroymeh.tom.ru/metodicheskie-posobiya/tags/методические-указания.html</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://stroymeh.tom.ru/metodicheskie-posobiya/tags/учебные-пособие.html</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://stroymeh.tom.ru/metodicheskie-posobiya/tags/метод-сил.html</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://stroymeh.tom.ru/programmy-dlya-rascheta/tags/программа.html</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://stroymeh.tom.ru/programmy-dlya-rascheta/tags/arka.html</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://stroymeh.tom.ru/programmy-dlya-rascheta/tags/beam.html</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://stroymeh.tom.ru/programmy-dlya-rascheta/tags/geom.html</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://stroymeh.tom.ru/programmy-dlya-rascheta/tags/сортамент.html</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://stroymeh.tom.ru/programmy-dlya-rascheta/tags/scad.html</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://stroymeh.tom.ru/programmy-dlya-rascheta/tags/office.html</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://stroymeh.tom.ru/programmy-dlya-rascheta/tags/демо-версия.html</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://stroymeh.tom.ru/programmy-dlya-rascheta/tags/astra.html</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://stroymeh.tom.ru/about</loc>
-    <lastmod>2014-12-29 22:55:24 +0600</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 </urlset>
