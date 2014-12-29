@@ -24,7 +24,7 @@
               <%= content_type(file.link) %>
             </div>
             <div class="media-body">
-              <%= link_to file.title, file.link %>
+              <%= link_to file.title, file.link, :class => 'js-download-files' %>
             </div>
           </li>
         <% end %>
