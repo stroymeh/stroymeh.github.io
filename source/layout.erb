@@ -9,6 +9,10 @@
     <meta name='yandex-verification' content='4df1e1435031f4c8' />
     <meta name="google-site-verification" content="Lu1xGb6kiqu1cEO9TkY7LFO9oTUuZLQuSQGe3YQq3oY" />
 
+    <% if current_page.data.canonical? %>
+      <link rel="canonical" href="http://stroymeh.tom.ru<%= current_page.data.canonical %>" />
+    <% end %>
+
     <title><%= "#{current_page.data.title || data.page.title} / Строительная механика. Методические пособия и программы" %></title>
 
     <%= stylesheet_link_tag "application", :media => "all" %>
