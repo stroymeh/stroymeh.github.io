@@ -2,20 +2,20 @@ require 'extensions/views'
 
 activate :blog do |blog|
   blog.name = :manuals
-  blog.prefix = "metodicheskoe-posobie"
+  blog.prefix = "metodicheskie-posobiya"
   blog.permalink = "{title}"
   blog.taglink = "tags/{tag}.html"
-  blog.tag_template = "metodicheskoe-posobie/tags/tag.html"
+  blog.tag_template = "metodicheskie-posobiya/tags/tag.html"
   blog.layout = "posts"
   blog.summary_length = 200
 end
 
 activate :blog do |blog|
   blog.name = :softwares
-  blog.prefix = "programmy"
+  blog.prefix = "programmy-dlya-rascheta"
   blog.permalink = "{title}"
   blog.taglink = "tags/{tag}.html"
-  blog.tag_template = "programmy/tags/tag.html"
+  blog.tag_template = "programmy-dlya-rascheta/tags/tag.html"
   blog.layout = "posts"
   blog.summary_length = 200
 end
