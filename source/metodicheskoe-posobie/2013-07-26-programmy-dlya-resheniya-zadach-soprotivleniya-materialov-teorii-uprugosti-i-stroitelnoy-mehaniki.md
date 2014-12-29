@@ -7,6 +7,7 @@ files:
   -
     title: 'Скачать методическое пособие'
     link: '/files/educational_programs.pdf'
+alias: [manuals/programmy-dlya-resheniya-zadach-soprotivleniya-materialov-teorii-uprugosti-i-stroitelnoy-mehaniki/index.html]
 ---
 
 В методических указаниях приводятся сведения о подготовке исходных данных и порядке работы с программами

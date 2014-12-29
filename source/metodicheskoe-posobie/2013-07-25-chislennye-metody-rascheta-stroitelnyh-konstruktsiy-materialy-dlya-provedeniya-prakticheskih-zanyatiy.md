@@ -7,6 +7,7 @@ files:
   -
     title: 'Скачать материалы'
     link: '/files/numerical_methods_for_design_of_structures_practices.pdf'
+alias: [manuals/chislennye-metody-rascheta-stroitelnyh-konstruktsiy-materialy-dlya-provedeniya-prakticheskih-zanyatiy/index.html]
 ---
 
 Методические указания содержат материалы для проведения практических занятий и самостоятельной работы студентов

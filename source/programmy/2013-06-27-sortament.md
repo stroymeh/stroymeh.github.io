@@ -7,6 +7,7 @@ files:
   -
     title: 'Сортамент'
     link: '/files/sortament.sfx.exe'
+alias: [softwares/sortament/index.html]
 ---
 
 Программа предназначена для просмотра сортамента прокатных профилей.

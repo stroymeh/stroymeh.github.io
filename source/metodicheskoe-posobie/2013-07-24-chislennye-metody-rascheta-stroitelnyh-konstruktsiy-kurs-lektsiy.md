@@ -7,6 +7,7 @@ files:
   -
     title: 'Скачать курс лекций'
     link: '/files/numerical_methods_for_design_of_structures.exe'
+alias: [manuals/chislennye-metody-rascheta-stroitelnyh-konstruktsiy-kurs-lektsiy/index.html]
 ---
 
 Материалы содержат презентации к лекционному курсу в формате pdf по следующим темам:

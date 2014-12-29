@@ -7,6 +7,7 @@ files:
   -
     title: 'Скачать учебное пособие'
     link: '/files/structural_mechanics_part_II.pdf'
+alias: [manuals/stroitelnaya-mehanika-staticheski-neopredelimye-sistemy/index.html]
 ---
 
 Учебное пособие содержит рабочую программу, методические указания, примеры решения задач,
