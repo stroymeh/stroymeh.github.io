@@ -7,5 +7,9 @@ Disallow: /programmy/tags
 Disallow: /programmy/tags/tag
 Disallow: /metodicheskoe-posobie/tags
 Disallow: /metodicheskoe-posobie/tags/tag
+Disallow: /programmy-dlya-rascheta/tags
+Disallow: /programmy-dlya-rascheta/tags/tag
+Disallow: /metodicheskie-posobiya/tags
+Disallow: /metodicheskie-posobiya/tags/tag
 Host: stroymeh.tom.ru
 Sitemap: http://stroymeh.tom.ru/sitemap.xml
