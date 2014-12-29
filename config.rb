@@ -22,6 +22,7 @@ end
 
 activate :views
 activate :directory_indexes
+activate :alias
 
 set :trailing_slash, false
 set :relative_links, true
@@ -29,13 +30,6 @@ set :css_dir, 'assets/stylesheets'
 set :js_dir, 'assets/javascripts'
 set :images_dir, 'assets/images'
 set :fonts_dir, 'assets/fonts'
-
-require 'rack/rewrite'
-use Rack::Rewrite do
-  r301 %r{^/softwares(?!\.xml)(.*)$}, '/programmy$1'
-  r301 %r{^/manuals(?!\.xml)(.*)$}, '/metodicheskoe-posobie$1'
-  r301 %r{^/(.*)/$}, '/$1'
-end
 
 configure :development do
  activate :livereload

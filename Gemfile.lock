@@ -61,6 +61,8 @@ GEM
       middleman-sprockets (>= 3.1.2)
       sass (>= 3.4.0, < 4.0)
       uglifier (~> 2.5)
+    middleman-alias (0.0.9)
+      middleman-core (~> 3.2)
     middleman-blog (3.6.0.beta.2)
       addressable (~> 2.3.5)
       middleman-core (>= 3.3)
@@ -146,6 +148,7 @@ DEPENDENCIES
   bootstrap-sass
   compass
   middleman (~> 3.3.7)
+  middleman-alias
   middleman-blog (~> 3.6.0.beta.2)
   middleman-deploy
   middleman-livereload
