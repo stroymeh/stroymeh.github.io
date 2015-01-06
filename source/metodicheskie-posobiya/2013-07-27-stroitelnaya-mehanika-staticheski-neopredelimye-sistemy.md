@@ -18,5 +18,3 @@ alias: [manuals/stroitelnaya-mehanika-staticheski-neopredelimye-sistemy/index.ht
 * «Расчет статически неопределимой фермы в матричной форме»
 
 Учебное пособие предназначено для студентов всех специальностей и форм обучения, изучающих дисциплину «Строительная механика».
-
-<iframe src="/files/structural_mechanics_part_II.pdf" style="width:100%; height:700px;" frameborder="0"></iframe>

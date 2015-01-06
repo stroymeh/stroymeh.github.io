@@ -5,6 +5,14 @@
 
   <div class="content">
     <%= yield %>
+
+    <% if current_page.data.files.any? %>
+      <% current_page.data.files.each do |file| %>
+        <% if content_type(file.link) == 'pdf' %>
+          <iframe src="<%= file.link %>" style="width:813px; height:700px;" frameborder="0"></iframe>
+        <% end %>
+      <% end %>
+    <% end %>
   </div>
 
   <div class="meta pull-left">
