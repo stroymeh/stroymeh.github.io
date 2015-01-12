@@ -7,20 +7,19 @@ directory_index: false
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://stroymeh.tom.ru/</loc>
-    <lastmod>2014-12-29</lastmod>
+    <lastmod><%= I18n.l(Time.now, :format => "%Y-%m-%d") %></lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+  <% sitemap.resources.find_all{ |p| p.source_file.match(/\.html/) if p.source_file }.each do |p| %>
+    <% location = p.destination_path.gsub('/index.html','') %>
+    <% unless location == 'index.html' %>
   <url>
-    <loc>http://stroymeh.tom.ru/metodicheskie-posobiya/</loc>
-    <lastmod>2014-12-29</lastmod>
+    <loc>http://stroymeh.tom.ru/<%= location.to_s %></loc>
+    <lastmod><%= I18n.l(Time.now, :format => "%Y-%m-%d") %></lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
-  <url>
-    <loc>http://stroymeh.tom.ru/programmy-dlya-rascheta/</loc>
-    <lastmod>2014-12-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+    <% end %>
+  <% end %>
 </urlset>

@@ -147,6 +147,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass
   compass
+  i18n
   middleman (~> 3.3.7)
   middleman-alias
   middleman-blog (~> 3.6.0.beta.2)

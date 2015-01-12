@@ -1,4 +1,5 @@
 require 'extensions/views'
+require 'i18n'
 
 activate :blog do |blog|
   blog.name = :manuals
